@@ -59,3 +59,12 @@ body{
 @keyframes example{
     
 }
+
+
+/*responsive*/
+@media screen and (max-width:400px){
+    .menu ol{
+        text-align:center;
+        float:none;
+    }
+}
