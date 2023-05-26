@@ -38,27 +38,29 @@ body{
     text-align: center; /*center align the text*/
     border:2px solid black;
     width:100%;
-    gap:50px; /*Makes gaps between row and columns*/
+    gap:50px; /*Makes gaps between row and columns */
     /* height:300px; */
     justify-content: center;
+    border:2px solid yellow;
 }
 
 .wrapper .side-bar .button-links button{
     /*margin: top right bottom left*/
     /* margin:0px 5px 10px 5px; */
     margin:0px 5px 0px 5px;
-    padding:0.5em;
+    /* padding:0.5em; */
     cursor:pointer; /*gives pointer when hovering over button*/
-    font-size:medium;
+    font-size:x-large;
     transition:0.5s;
     border:2px solid white;
     background:black;
     color:white;
     font-weight:400;
+    
 }
 
 .wrapper .side-bar .button-links button:hover{
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     /*var(--name,value)  used to insert value of css variable (colors)*/
     background:var(--but-h);
     /*box-shadow: h-offset v-offset blur spread color*/
@@ -68,10 +70,6 @@ body{
     border:2px solid var(--but-h);
 }
 
-.wrapper .side-bar .button-links button:before{/* ? */
-    content:"";
-    position:absolute;
-}
 
 .wrapper .side-bar .logo{
     height:15%;
@@ -79,7 +77,6 @@ body{
     border:2px solid purple;
     color:white;
 }
-
 
 /*Right Side-Bar*/
 .wrapper .side-bar .social-media{
@@ -91,14 +88,20 @@ body{
     width:100%;
     height:45%;
     align-self:center;
+    border:2px solid yellow;
 }
 
 .wrapper .side-bar .social-media a{
-    font-size:2.2em;
+    font-size:2.5em;
+}
+
+.wrapper .side-bar .social-media a i{
+    color:white;
 }
 
 
-.wrapper .main-content{ /*Main-Content*/
+/*Main-Content*/
+.wrapper .main-content{ 
     display:flex;
     flex:1;
     border:2px solid blue;
